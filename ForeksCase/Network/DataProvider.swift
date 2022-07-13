@@ -8,9 +8,6 @@
 import Foundation
 import Alamofire
 
-private let symbolListURL = "https://sui7963dq6.execute-api.eu-central-1.amazonaws.com/default/ForeksMobileInterviewSettings"
-private let symbolDetailURL = "https://sui7963dq6.execute-api.eu-central-1.amazonaws.com/default/ForeksMobileInterview"
-
 enum SymbolListResult{
     case success(SymbolListResponse)
     case failure(String)
